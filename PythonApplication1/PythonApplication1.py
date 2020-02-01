@@ -23,6 +23,6 @@ try:
 except pyodbc.DatabaseError as err:
     print('Error: ',err)
 
-# Завершаем подключение.
+# Close connection.
 cur.close()
 con.close()
